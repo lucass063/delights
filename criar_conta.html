@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="shortcut icon" href="img/1-removebg-preview (2).png" type="image/x-icon">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .criar_conta1 {
+            background-color: rgba(0, 0, 0, 0.8);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -40%);
+            padding: 20px;
+            border-radius: 15px;
+            color: white;
+        }
+        input {
+            width: 63%;
+            padding: 12px;
+            border: none;
+            outline: none;
+            font-size: 13px;
+            border-radius: 7px;
+        }
+        button {
+            background-color: dodgerblue;
+            border: none;
+            padding: 15px;
+            width: 70%;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+            
+        }
+        button:hover {
+            background-color: deepskyblue;
+            cursor: pointer;
+        }
+        .logo_login {
+            position: absolute;
+            left: 50%;
+            transform: translate(-27%);
+        }
+        .logo_login img{
+            width: 50%;
+        }
+        .alterar_senha a {
+            color: white;
+            font-size: 12px;
+        }
+        .criar_conta a{
+            color: white;
+            font-size: 12px;
+        }
+        .mini_texto {
+            width: 68%;
+            font-size: 13px;
+            text-align: justify;
+        }
+        .entra a{
+            color: rgb(0, 225, 255);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="logo_login">
+        <img src="img/Delights-Logo.png" alt="">
+    </div>
+    <div class="criar_conta1">
+        <h1>Criar Conta</h1>
+        <p class="mini_texto">
+            Crie uma conta para ver e compartilhar suas receitas favoritas.
+        </p>
+        <input type="text" placeholder="Email ou numero do celular">
+        <br>
+        <br>
+        <input type="password" placeholder="Senha">
+        <br>    
+        <br>
+        <input type="text" placeholder="Nome completo">
+        <br>
+        <br>
+        <input type="text" placeholder="Nome de usuario">
+        <br>
+        <br>
+        <button><a href="index.html">Criar conta</a></button>
+        <div class="entra">
+            <p>Ja tem conta? <a href="tela_login.html">Entrar</a></p>
+        </div>
+    </div>
+    
+</body>
+</html>
